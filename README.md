@@ -38,6 +38,7 @@ GPL-3.0
 3. Ejecutar index.html.
 4. Iniciar sesión con las credenciales configuradas.
 
+
 ## Estructura del Proyecto
 
 /
@@ -49,3 +50,4 @@ GPL-3.0
 │   ├── login.js
 │   └── usuarios.js
 └── README.md
+
