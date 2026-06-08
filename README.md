@@ -34,10 +34,8 @@ GPL-3.0
 ## Instalación
 
 1. Clonar el repositorio.
-2. Abrir el proyecto en el navegador.
-3. Ejecutar index.html.
-4. Iniciar sesión con las credenciales configuradas.
-
+2. Abrir index.html en el navegador.
+3. Iniciar sesión con las credenciales configuradas.
 
 ## Estructura del Proyecto
 
@@ -45,9 +43,8 @@ GPL-3.0
 ├── index.html
 ├── usuarios.html
 ├── css/
-│   └── styles.css
 ├── js/
-│   ├── login.js
-│   └── usuarios.js
 └── README.md
+
+
 
