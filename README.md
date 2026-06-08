@@ -46,5 +46,7 @@ GPL-3.0
 ├── js/
 └── README.md
 
+## Integración Continua
 
+El proyecto utiliza GitHub para el control de versiones, Pull Requests y revisiones de código.
 
