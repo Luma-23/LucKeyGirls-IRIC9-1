@@ -30,3 +30,23 @@ Aplicación web para la gestión y autenticación de usuarios desarrollada como 
 ## Licencia
 
 GPL-3.0
+
+## Instalación
+
+1. Clonar el repositorio.
+2. Abrir index.html en el navegador.
+3. Iniciar sesión con las credenciales configuradas.
+
+## Estructura del Proyecto
+
+/
+├── index.html
+├── usuarios.html
+├── css/
+├── js/
+└── README.md
+
+## Integración Continua
+
+El proyecto utiliza GitHub para el control de versiones, Pull Requests y revisiones de código.
+
