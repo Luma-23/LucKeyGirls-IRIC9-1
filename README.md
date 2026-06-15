@@ -49,7 +49,9 @@ GPL-3.0
 ## Integración Continua
 
 El proyecto utiliza GitHub para el control de versiones, Pull Requests y revisiones de código.
+## Backup y Restore
 
+feature-documentacion-api
 ## Actividad 3.1 - Arquitectura y estilos de diseño de APIs
 
 Esta actividad es una continuación del proyecto LucKeyGirls-IRIC9-1, agregando funcionalidades relacionadas con APIs REST, recuperación de contraseña, respaldo y restauración.
@@ -70,3 +72,21 @@ Se implementó una API REST simulada para registrar accesos y acciones realizada
 ```text
 GET /api/logs
 POST /api/logs
+=======
+ feature-backup-restore
+=======
+## Backup y Restore
+
+ main
+Para realizar un respaldo:
+
+```bash
+./backup.sh
+```
+
+Para restaurar:
+
+```bash
+./restore.sh
+```
+ main
