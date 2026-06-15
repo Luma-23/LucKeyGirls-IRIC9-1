@@ -24,7 +24,7 @@ function guardarUsuario() {
         "usuarios",
         JSON.stringify(usuarios)
     );
-
+registrarLog(nombre, "create");
     mostrarUsuarios();
 
     document.getElementById("nombre").value = "";
@@ -80,7 +80,7 @@ function eliminarUsuario(index){
         "usuarios",
         JSON.stringify(usuarios)
     );
-
+registrarLog("admin", "delete");
     mostrarUsuarios();
 }
 
@@ -105,7 +105,7 @@ function editarUsuario(index){
         "usuarios",
         JSON.stringify(usuarios)
     );
-
+registrarLog("admin", "update");
     mostrarUsuarios();
 }
 
