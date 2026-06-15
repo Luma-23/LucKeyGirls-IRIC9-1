@@ -2,6 +2,10 @@
 
 echo "Iniciando respaldo..."
 
-cp README.md README_backup.md
+mkdir -p backup
 
-echo "Respaldo completado."
+cp README.md backup/README_backup.md
+cp index.html backup/index_backup.html
+cp usuarios.html backup/usuarios_backup.html
+
+echo "Respaldo completado correctamente."
