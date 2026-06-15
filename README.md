@@ -50,3 +50,23 @@ GPL-3.0
 
 El proyecto utiliza GitHub para el control de versiones, Pull Requests y revisiones de código.
 
+## Actividad 3.1 - Arquitectura y estilos de diseño de APIs
+
+Esta actividad es una continuación del proyecto LucKeyGirls-IRIC9-1, agregando funcionalidades relacionadas con APIs REST, recuperación de contraseña, respaldo y restauración.
+
+## API REST de Logs de Acceso
+
+Se implementó una API REST simulada para registrar accesos y acciones realizadas dentro del sistema.
+
+### Datos registrados
+
+- Usuario
+- Fecha
+- IP
+- Acción realizada
+
+### Endpoints simulados
+
+```text
+GET /api/logs
+POST /api/logs
